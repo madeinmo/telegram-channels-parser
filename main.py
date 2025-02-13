@@ -7,8 +7,6 @@ from pyrogram.types import Message
 from py.saver import Saver
 from py.telegram import TBot
 
-load_dotenv()
-
 PHONE = os.getenv('PHONE')
 API_ID = os.getenv('API_ID')
 API_HASH = os.getenv('API_HASH')
